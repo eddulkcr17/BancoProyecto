@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public class RutaService {
 
-     private final RutaRepository rutaRepository;
+    private final RutaRepository rutaRepository;
 
     @Autowired
     public RutaService(RutaRepository rutaRepository) {
